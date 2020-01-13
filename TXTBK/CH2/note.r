@@ -106,3 +106,25 @@ df <- as.data.frame(mat)
 
 murders[25,1]
 murders[4:7, ]
+
+## Vectors
+## Use c() funtion to create vectors
+
+codes <- c (1, 2, 3)
+
+## Create character vectors
+
+countries <- c('russia', 'canada', 'uk')
+
+## In R '' and "" are equivalent just like in Python
+
+
+## Names 
+
+codes <- c(red = 1, blue = 2, green = 3)
+
+## Codes is a numeric vector, with names
+
+class(codes)
+names(codes)
+
